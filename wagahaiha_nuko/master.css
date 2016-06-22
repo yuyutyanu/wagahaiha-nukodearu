@@ -1,0 +1,84 @@
+@media (min-width: 1000px){
+  #nowloding {
+      text-align: center;
+      margin-top: 300px;
+  }
+
+  body {
+      font-family: 'Roboto Slab', serif;
+  }
+
+  .leftpage {
+      height: 680px;
+      width: 50%;
+      float: left;
+      background-color: #223a70;
+      display: none;
+  }
+
+  .leftpage img {
+    height: 600px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+.rightpage img{
+  height: 600px;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right:5%;
+
+}
+
+  .char2 {
+    width:48%;
+      margin-left: 1%;
+      margin-top: 150px;
+      display: none;
+      position: absolute;
+      z-index: 1;
+      text-align: center;
+  }
+
+  .rightpage {
+      float: left;
+      width: 50%;
+      text-align: center;
+      background-color: #165e83;
+      height: 680px;
+      display: none;
+  }
+
+  #nuko2 {
+      height: 600px;
+      width: 600px;
+      margin-left: 30px;
+      margin-top: 40px;
+      display: none;
+  }
+
+  .char {
+      position: absolute;
+      margin-left: 55%;
+      margin-top: 200px;
+      display: none;
+  }
+}
+@media (max-width: 999px){
+  .char a{font-size:20px;}
+  .char2{display: none;}
+  .rightpage img{display: none;}
+  body{background-color: #165e83;
+    font-family: 'Roboto Slab', serif;}
+  img{
+    width:95%;
+    margin-left:10px;
+    margin-top:20px;
+    height:470px;
+  }
+  .leftpage {
+      background-color: #223a70;
+  }
+
+}
