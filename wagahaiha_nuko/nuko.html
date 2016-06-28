@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=0.5,user-scalable=yes,initial-scale=1.0" />
+
 </head>
 
 <body>
@@ -39,43 +40,7 @@
         <img src="nuko2.jpg" alt="" / id="nuko2">
     </div>
 
-    <style media="screen">
-
-    </style>
-    <script type="text/javascript">
-        window.onload = function() {
-            $(function() {
-                $('#nowloding').fadeOut();
-                setTimeout(function() {
-                    setTimeout(function() {
-                        $('.char').fadeIn('slow')
-                    }, 500);
-                    $('.leftpage').fadeIn();
-                    $('.rightpage').slideDown("slow");
-                }, 500);
-            });
-        }
-        $('#a_firstpage').click(function() {
-            $(".rightpage").css("background-color", "#ba2636");
-            $(".char").fadeOut();
-            setTimeout(function() {
-                $(".char2").fadeIn("slow")
-            }, 500);
-        });
-
-        $('#a_firstpage').click(function() {
-              $(".leftpage img").css("display", "none");
-              $(".leftpage").css("display","none");
-              $('.leftpage').slideDown("slow");
-            $('.leftpage').css("background-color", "brown");
-            $('#nuko2').fadeIn('slow');
-        });
-
-        $('#a_secondpage').click(function() {
-            location.href = "http://www.aozora.gr.jp/cards/000148/files/789_14547.html";
-        });
-    </script>
-
+    <script type="text/javascript" src="./nuko.js" charset="utf-8"></script>
 </body>
 
 </html>
